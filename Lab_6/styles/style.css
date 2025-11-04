@@ -1,0 +1,70 @@
+body {
+  font-family: "Cormorant Infant", serif;
+  font-size: 14 px;
+  line-height: 1.25;
+  color: #777;
+}
+ul ul {
+  font-style: italic;
+  font-weight: bold;
+}
+h1, h2 {
+  font-family: "Cormorant Infant", serif;
+  letter-spacing: 0.5 px;
+  color: black;
+  text-transform: capitalize;
+}
+h1 {
+  font-size: 32 px;
+}
+h2 {
+  font-size: 26 px;
+  margin-top: 60 px;
+  margin-bottom: 0;
+}
+.double-line {
+  line-height: 2;
+}
+.mail-box {
+  background-color: #e0fff6;
+  border: 5 px solid #c2e4c2;
+  padding: 10 px 20 px;
+  box-sizing: border-box;
+  width: 400 px;
+}
+.mail-box a {
+  color: #006666
+  text-decoration: none;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+}
+.mail-box a:hover {
+  display: block;
+}
+p {
+  text-align: justify;
+}
+.our-adv {
+  background-image: url("http://picsum.photos/id/357/700/400?blur=5");
+  padding-top: 30 px;
+  padding-bottom: 60 px;
+  color: white;
+  font-size: 16 px;
+}
+.our-adv {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+h2 {
+  margin-top: 60 px;
+  margin-bottom: 0;
+}
+.ruler {
+  width: 150 px;
+  background-color: lime;
+  text-align: center;
+  color: black;
+  margin-top: 10 px;
+  margin-bottom: 10 px;
+  }
