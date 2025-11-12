@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.addresses-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto; 
+  gap: 20 px;
+  padding: 20 px;
+  scroll-behavior: smooth;
+}
+
+.address {
+  flex: 0 0 300 px;
+  background-color: #FFE4C4;
+  border-radius: 10 px;
+  padding: 40 px 20 px;
+  box-shadow: 3 px 3 px 10 px rgba (0, 0, 0, 0.3);
+  position: relative;
+  font-style: normal;
+  transition: background-color 0.3 s ease;
+}
+
+.address__icon {
+  width: 70 px;
+  float: left;
+  margin-right: 10 px;
+}
+
+.address__status {
+  width: 32 px;
+  position: absolute;
+  bottom: 10 px;
+  right: 10 px;
+}
+
+.address__delete-btn {
+  background-color: #FF8E50;
+  color: white;
+  text-decoration: none;
+  font-size: 36 px;
+  line-height: 20 px;
+  padding: 10 px;
+  font-weight: bold;
+  border-radius: 0 10 px 10 px 0;
+  position: absolute;
+  top: 10 px;
+  right: 10 px;
+}
+
+.address__delete-btn:hover {
+  background-color: #FFD050;
+}
+
+.address__header {
+  display: block;
+  margin-bottom: 10 px;
+}
+
+.address:hover {
+  background-color: #F3F3F3 !important;
+}
+
+.address:first-child {
+  background-color: #F0FFC1;
+}
+
+.address:last-child {
+  background-color: #B6FFDA;
+}
+
+ @media (max-width: 767 px) {
+  .addresses-wrapper {
+    flex-wrap: wrap;
+    overflow-x: hidden;
+  }
+
+  .address {
+    flex: 0 0 100 %;
+    margin-bottom: 20 px;
+  }
+}
